@@ -35,6 +35,7 @@ function main(params) {
       });
     }
     else {
+     
       discovery = new DiscoveryV1({
         'username': params.username,
         'password': params.password,
